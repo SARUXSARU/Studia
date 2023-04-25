@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC99FE87-C0CD-A10D-0AFB-7186B8D878DC" name="PRACOWNIK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>81015EA4-284F-7BB3-641C-2557D54A9D59</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7249E41F-C5C2-46B5-2B18-F7D41B0E29E6">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>4A215875-C780-674E-5516-DE3BB9F5F2D1</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="510E3699-41A8-B43D-AF06-E807F97EF005">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>F264CB9E-1A5D-A24B-CB3B-9158219391A0</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="65088F7F-DBD6-71A0-9064-49878C6343C4">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>9D00EB60-B9B6-6CBC-200D-3196C938CFE8</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plec" id="E9650F48-4B80-B4C3-1246-D198136C5E2A">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>39915EB1-1243-2758-D9A4-1359A908D723</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_urodzenia" id="9ACB71E0-A624-AEF4-C359-C022B3543770">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>8D3CB428-199E-8A4F-95D3-BADFDF21B92E</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesel" id="6ADBCB4F-AC54-1F09-5152-220003707523">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>B83D4538-9D5D-E52C-EF5A-8539E0EA407D</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ODDZIAŁ_FIRMY_id" id="645BEB2D-7A92-C66D-6829-09D4886F6D5E">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>11DFD5E7-E65D-EF5D-8D14-9C953443170B</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55DAF271-948A-51DA-BBED-43521335061A" referredColumn="1A519321-2BE4-8A0D-9294-B62F858AA5A3"/>
+</associations>
+</Column>
+<Column name="STANOWISKO_id" id="F65059F2-FAD6-A5CC-E419-CB2548EE5836">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>835300E8-341A-5B64-197B-D048F35781E6</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCA710E1-4B4B-F4CA-5E4C-CC73537ED5F3" referredColumn="280F13EE-3757-6BFD-B30A-4A17EC9EB0A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25738326-EF49-0F5F-FE70-533FCBCFD289" name="PRACOWNIK_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>0A6FCFC5-FBF6-FCD3-BA10-615577228D4B</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7249E41F-C5C2-46B5-2B18-F7D41B0E29E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD01E0E1-FE7B-71C4-6DFE-BFA9A9E88057" name="PRACOWNIK_pesel_UN">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>F3FF1A14-C573-AA83-3D57-E3063F27A2E1</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ADBCB4F-AC54-1F09-5152-220003707523"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="748117CA-DF78-9AEE-0F73-935DD1EBC18E" name="PRACOWNIK_ODDZIAŁ_FIRMY_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>DC0AE4F7-A73D-6DF8-22DA-6D6AC363E899</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="645BEB2D-7A92-C66D-6829-09D4886F6D5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60484054-7391-913D-D7D3-C83BD704C8AA" name="PRACOWNIK_STANOWISKO_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>CF4BB856-CF66-1AFA-642E-3E04C70C6447</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F65059F2-FAD6-A5CC-E419-CB2548EE5836"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CDB7A81-8AE6-D170-492D-B5061CFF2185" name="WYDATEK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 20:51:54 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="data" id="08CC4C87-6B67-57CF-A00E-7F0051E5019B">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 20:52:00 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="49DFBC22-18E8-D20B-F812-F12470313A6E">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 20:52:08 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kwota" id="15ED1751-8E0B-1A92-954A-C8081A6AFA2B">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 20:52:13 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="2BEA0281-8E8F-4CFD-18F8-29EF746610D3">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:03:43 UTC</createdTime>
+<generatorID>B3036D85-6931-0DDB-EEF3-F6D6021A884F</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<referedAttribute>CEE856F9-59F3-C693-A30D-48D22F7B27C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="D04B5544-491D-E348-3052-83AD2938E3D2">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:04:06 UTC</createdTime>
+<generatorID>EAC21A72-DE4C-8E34-FE46-AABFD1927F4C</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<referedAttribute>A4A0BFBE-CDA1-4FF2-EF1F-38ECA91D49A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21A895E0-209F-27B3-F222-56645074859B" name="WYDATEK PK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 20:52:12 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49DFBC22-18E8-D20B-F812-F12470313A6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

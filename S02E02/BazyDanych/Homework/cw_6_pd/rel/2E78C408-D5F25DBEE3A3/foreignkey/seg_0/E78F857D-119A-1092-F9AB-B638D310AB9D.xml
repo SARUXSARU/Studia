@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E78F857D-119A-1092-F9AB-B638D310AB9D" containerWithKeyObject="C9D6B0AF-5B1A-0A13-8E39-84783747C7EC" localFKIndex="556EA82E-BADF-E263-B1CE-BC94A29F3422" name="ODWIEDZENIE_STACJA_TERENOWA_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>D72A1CD4-09CB-498F-D6B6-4B773032B50E</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7664535C-17E8-ED9A-098D-64720FEBAD13</referredTableID>
+<keyObject>4589A115-84C6-A4D9-BBDD-1A70B857CA35</keyObject>
+<referredKeyID>4589A115-84C6-A4D9-BBDD-1A70B857CA35</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

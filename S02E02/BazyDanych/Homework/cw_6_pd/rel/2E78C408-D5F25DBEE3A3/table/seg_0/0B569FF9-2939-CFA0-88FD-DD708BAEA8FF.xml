@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B569FF9-2939-CFA0-88FD-DD708BAEA8FF" name="KATEGORIE_WYDATKÓW">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>DB9C5AC0-A5A6-7FC8-8295-CBEC34BD6E77</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="08ED22C7-C63C-FD62-3FCB-6CFBE263BDD8">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>CEE856F9-59F3-C693-A30D-48D22F7B27C0</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="D264E1A3-7469-DE89-CFC5-F4E5590204E4">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>BBE54F71-6D0E-7689-BBB4-24AFFF5F9DAD</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="76E4DBFD-5D8E-EBE6-CE74-1A80F2B4CC87">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>2DD30FF7-C27F-B95C-42CA-67AF1AE03678</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF038882-50DD-2E8C-2778-3544220AA337" name="KATEGORIE_WYDATKÓW_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>CA551695-4455-BCB5-2ED8-213A6461B588</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08ED22C7-C63C-FD62-3FCB-6CFBE263BDD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00C6090F-C9B4-37F0-B7AA-8A173BA53186" name="STANOWISKO">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>ED23B128-3444-EC40-8C49-C31325CFF1BD</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="280F13EE-3757-6BFD-B30A-4A17EC9EB0A4">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>FA3A5FA1-5206-9BCD-5A71-F460041902D2</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pensja" id="05C99E53-C100-E4F5-220E-B24E5250BB7C">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>43A1DAD4-052C-593F-4155-8BB7D1E031C3</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="F0D0B0F9-C5FB-1A1F-8419-A6920D2CBD21">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>6127D577-B977-75DC-ADE6-9F17454373F7</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="D947EE07-8473-ACB4-F0FB-6758BD66BFBC">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>B475F2B9-98F5-D931-4C70-9C1A47173117</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B03ACAE6-83B2-F5C3-DD48-3723F7292807" name="STANOWISKO_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>D4DD4D84-6679-822C-0375-BE7CD6923B49</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="280F13EE-3757-6BFD-B30A-4A17EC9EB0A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

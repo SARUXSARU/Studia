@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9FC3E4D8-7B9F-562A-EC9A-89570783399F" name="DELEGACJA">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 20:48:13 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A4A0BFBE-CDA1-4FF2-EF1F-38ECA91D49A8">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 20:48:19 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_rozpoczęcia" id="9C3C4574-B9A4-8B2B-2ADA-BE01DFCB0F0A">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 20:48:25 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_zakończenia" id="8A509E6C-4933-9150-7A0D-3820ABF5B8F9">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 20:48:44 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ilość_kilometrów" id="B43F7803-2B43-9910-7F07-06B46A041772">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 20:48:50 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="8FE52F3C-09A6-7507-AF05-45895CA0A5ED">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:23:30 UTC</createdTime>
+<generatorID>02F0EDDE-3221-3A20-3DDF-46ADACA05EB5</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<referedAttribute>4A215875-C780-674E-5516-DE3BB9F5F2D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8874A6B3-3426-B846-AD9C-32041E814E63" name="DELEGACJA PK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 20:48:24 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4A0BFBE-CDA1-4FF2-EF1F-38ECA91D49A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

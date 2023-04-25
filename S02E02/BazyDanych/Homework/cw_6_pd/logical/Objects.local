@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="9FC3E4D8-7B9F-562A-EC9A-89570783399F" name="DELEGACJA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DB9C5AC0-A5A6-7FC8-8295-CBEC34BD6E77" name="KATEGORIE_WYDATKĂ“W" seqName="seg_0"/>
+   <object objectType="Entity" objectID="829E43F0-8016-C612-069F-7C1B8B3CA244" name="ODDZIAĹ�_FIRMY" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AB4BA9E5-B175-1773-BE6A-B6304EB6AA76" name="ODWIEDZENIE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="81015EA4-284F-7BB3-641C-2557D54A9D59" name="PRACOWNIK" seqName="seg_0"/>
+   <object objectType="Entity" objectID="309F339E-794F-DDEC-EEC3-268E6964CEF4" name="PRZEGLÄ„D" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5E7F3462-0387-B48B-FD71-C094BA060DA6" name="SAMOCHĂ“D" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1C91DBE5-2308-79E6-856D-320CEFB097BC" name="STACJA_TERENOWA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="ED23B128-3444-EC40-8C49-C31325CFF1BD" name="STANOWISKO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5CDB7A81-8AE6-D170-492D-B5061CFF2185" name="WYDATEK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9BF11B1B-5EEF-1AF8-C482-B2992607AE7C" name="Relation_1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B9A6316F-2FEF-9012-16EA-96B34EEF9C15" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B3036D85-6931-0DDB-EEF3-F6D6021A884F" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EAC21A72-DE4C-8E34-FE46-AABFD1927F4C" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DC0AE4F7-A73D-6DF8-22DA-6D6AC363E899" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CF4BB856-CF66-1AFA-642E-3E04C70C6447" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="02F0EDDE-3221-3A20-3DDF-46ADACA05EB5" name="Relation_7" seqName="seg_0"/>
+   <object objectType="Relation" objectID="640B8BFA-FE7C-8011-F3A0-778B471E6DE7" name="Relation_8" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D72A1CD4-09CB-498F-D6B6-4B773032B50E" name="Relation_9" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

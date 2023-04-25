@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="EBE67AC2-850B-8AE7-5969-69B4348DB4E7" name="DELEGACJA" seqName="seg_0"/>
+   <object objectType="Table" objectID="0B569FF9-2939-CFA0-88FD-DD708BAEA8FF" name="KATEGORIE_WYDATKĂ“W" seqName="seg_0"/>
+   <object objectType="Table" objectID="4785E387-0325-6A63-A70B-A1DCFA3A79AE" name="ODDZIAĹ�_FIRMY" seqName="seg_0"/>
+   <object objectType="Table" objectID="C9D6B0AF-5B1A-0A13-8E39-84783747C7EC" name="ODWIEDZENIE" seqName="seg_0"/>
+   <object objectType="Table" objectID="BC99FE87-C0CD-A10D-0AFB-7186B8D878DC" name="PRACOWNIK" seqName="seg_0"/>
+   <object objectType="Table" objectID="C464CDDA-9B8A-A8E0-6EF3-02CFA801724A" name="PRZEGLÄ„D" seqName="seg_0"/>
+   <object objectType="Table" objectID="E49DB096-634B-F108-FB51-01541DB70171" name="SAMOCHĂ“D" seqName="seg_0"/>
+   <object objectType="Table" objectID="7664535C-17E8-ED9A-098D-64720FEBAD13" name="STACJA_TERENOWA" seqName="seg_0"/>
+   <object objectType="Table" objectID="00C6090F-C9B4-37F0-B7AA-8A173BA53186" name="STANOWISKO" seqName="seg_0"/>
+   <object objectType="Table" objectID="F0660525-C49A-1F1E-FD34-913FAB70606F" name="WYDATEK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9F7942E3-6102-BDF3-25FF-6813BCA39534" name="DELEGACJA_PRACOWNIK_FK" seqName="seg_0" containerID="EBE67AC2-850B-8AE7-5969-69B4348DB4E7" refContainerID="BC99FE87-C0CD-A10D-0AFB-7186B8D878DC"/>
+   <object objectType="FKIndexAssociation" objectID="98960B78-D643-044E-9384-83A96601FFE9" name="ODWIEDZENIE_DELEGACJA_FK" seqName="seg_0" containerID="C9D6B0AF-5B1A-0A13-8E39-84783747C7EC" refContainerID="EBE67AC2-850B-8AE7-5969-69B4348DB4E7"/>
+   <object objectType="FKIndexAssociation" objectID="E78F857D-119A-1092-F9AB-B638D310AB9D" name="ODWIEDZENIE_STACJA_TERENOWA_FK" seqName="seg_0" containerID="C9D6B0AF-5B1A-0A13-8E39-84783747C7EC" refContainerID="7664535C-17E8-ED9A-098D-64720FEBAD13"/>
+   <object objectType="FKIndexAssociation" objectID="55DAF271-948A-51DA-BBED-43521335061A" name="PRACOWNIK_ODDZIAĹ�_FIRMY_FK" seqName="seg_0" containerID="BC99FE87-C0CD-A10D-0AFB-7186B8D878DC" refContainerID="4785E387-0325-6A63-A70B-A1DCFA3A79AE"/>
+   <object objectType="FKIndexAssociation" objectID="BCA710E1-4B4B-F4CA-5E4C-CC73537ED5F3" name="PRACOWNIK_STANOWISKO_FK" seqName="seg_0" containerID="BC99FE87-C0CD-A10D-0AFB-7186B8D878DC" refContainerID="00C6090F-C9B4-37F0-B7AA-8A173BA53186"/>
+   <object objectType="FKIndexAssociation" objectID="AD592556-2A32-EA5D-B561-E91C9E8031B7" name="PRZEGLÄ„D_SAMOCHĂ“D_FK" seqName="seg_0" containerID="C464CDDA-9B8A-A8E0-6EF3-02CFA801724A" refContainerID="E49DB096-634B-F108-FB51-01541DB70171"/>
+   <object objectType="FKIndexAssociation" objectID="7AE690C5-D405-DF99-32BA-5C77AA363B7C" name="SAMOCHĂ“D_ODDZIAĹ�_FIRMY_FK" seqName="seg_0" containerID="E49DB096-634B-F108-FB51-01541DB70171" refContainerID="4785E387-0325-6A63-A70B-A1DCFA3A79AE"/>
+   <object objectType="FKIndexAssociation" objectID="DE9F45B1-53C5-DE86-52FF-D8EDDE839703" name="WYDATEK_DELEGACJA_FK" seqName="seg_0" containerID="F0660525-C49A-1F1E-FD34-913FAB70606F" refContainerID="EBE67AC2-850B-8AE7-5969-69B4348DB4E7"/>
+   <object objectType="FKIndexAssociation" objectID="D56B1B4C-CE7C-50CE-1426-7EC50C43D11B" name="WYDATEK_KATEGORIE_WYDATKĂ“W_FK" seqName="seg_0" containerID="F0660525-C49A-1F1E-FD34-913FAB70606F" refContainerID="0B569FF9-2939-CFA0-88FD-DD708BAEA8FF"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7664535C-17E8-ED9A-098D-64720FEBAD13" name="STACJA_TERENOWA">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>1C91DBE5-2308-79E6-856D-320CEFB097BC</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="407450BA-A4E2-AB77-9ED1-2B9D63594755">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>D5CD7A46-0F0E-6555-F01B-CF803C1C5496</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="44EE38E5-146A-78A2-9CF7-D38538BCACEF">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>33224868-7D3B-969F-36A4-427880E6CACD</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miejscowość" id="985D16AE-23AF-0485-C608-598DD8FEDCB0">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>8A1F0122-8CFC-0BA3-D427-8E824D276358</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kod_pocztowy" id="DD1737B5-6430-FC05-174E-A07CDB2BAEA2">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>C3425661-F7B9-1BBF-C809-38262B2CA2D6</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numer_posesji" id="326052FA-C736-93C3-5915-2312618F741E">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>F87974C4-DB0B-47C3-9FD5-BF996CCD86B4</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulica" id="CD73D905-99ED-98EC-B879-06A2C2CD60F6">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>5AEDE324-F1A2-75EA-C87D-546DE351262F</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numer_telefonu" id="951A1D3C-F168-846E-C58F-FA4AA6595F47">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>A234907F-D9AB-2A5D-892C-3351196FBCD1</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="województwo" id="807CE2B3-9807-06A7-B366-549D40240918">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>37FDFCEC-3BBC-DC01-57D6-9F2B7D0EB7DE</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4589A115-84C6-A4D9-BBDD-1A70B857CA35" name="STACJA_TERENOWA_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>13107A25-BED6-FDCE-8757-1BAD8CCD4815</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="407450BA-A4E2-AB77-9ED1-2B9D63594755"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

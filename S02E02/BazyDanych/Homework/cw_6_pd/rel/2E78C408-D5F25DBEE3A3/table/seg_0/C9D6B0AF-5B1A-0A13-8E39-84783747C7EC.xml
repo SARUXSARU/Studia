@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9D6B0AF-5B1A-0A13-8E39-84783747C7EC" name="ODWIEDZENIE">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>AB4BA9E5-B175-1773-BE6A-B6304EB6AA76</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data_odwiedzenia" id="25F912EC-485D-7D72-CF2A-53B00FF0D1B6">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>B5A0DDC2-4942-4502-836E-3A99CBBE6302</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DELEGACJA_id" id="449A6AAD-9DE0-B79C-E7C5-1D8D7B390BA9">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>36534D5F-E4CA-5308-0777-51E49471C797</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98960B78-D643-044E-9384-83A96601FFE9" referredColumn="10687869-B0B8-1BBD-BC72-57CB167FC0E5"/>
+</associations>
+</Column>
+<Column name="STACJA_TERENOWA_id" id="39553B07-E67F-B3D1-C960-224052FDE9E2">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>B20C4CF9-1748-DC91-17C1-66DE3F97580D</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E78F857D-119A-1092-F9AB-B638D310AB9D" referredColumn="407450BA-A4E2-AB77-9ED1-2B9D63594755"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4952F3C-D7CD-BEA5-26BA-2E262259CE4C" name="ODWIEDZENIE_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>A6A4065F-59BB-6E2F-55CC-F678F0F80EA0</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39553B07-E67F-B3D1-C960-224052FDE9E2"/>
+<colUsage columnID="449A6AAD-9DE0-B79C-E7C5-1D8D7B390BA9"/>
+<colUsage columnID="25F912EC-485D-7D72-CF2A-53B00FF0D1B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="069A9490-AACF-37C4-E0BF-328EF9B9EFD7" name="ODWIEDZENIE_DELEGACJA_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>640B8BFA-FE7C-8011-F3A0-778B471E6DE7</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="449A6AAD-9DE0-B79C-E7C5-1D8D7B390BA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="556EA82E-BADF-E263-B1CE-BC94A29F3422" name="ODWIEDZENIE_STACJA_TERENOWA_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>D72A1CD4-09CB-498F-D6B6-4B773032B50E</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39553B07-E67F-B3D1-C960-224052FDE9E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

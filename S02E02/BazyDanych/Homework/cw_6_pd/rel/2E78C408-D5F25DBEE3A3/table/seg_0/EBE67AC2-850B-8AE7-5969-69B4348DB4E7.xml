@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBE67AC2-850B-8AE7-5969-69B4348DB4E7" name="DELEGACJA">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>9FC3E4D8-7B9F-562A-EC9A-89570783399F</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="10687869-B0B8-1BBD-BC72-57CB167FC0E5">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>A4A0BFBE-CDA1-4FF2-EF1F-38ECA91D49A8</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_rozpoczęcia" id="D04C8DE0-5403-2866-0869-9534C05A1AB5">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>9C3C4574-B9A4-8B2B-2ADA-BE01DFCB0F0A</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_zakończenia" id="2E78317A-5E52-D04F-AACC-53D1634353D9">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>8A509E6C-4933-9150-7A0D-3820ABF5B8F9</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ilość_kilometrów" id="69EAFD93-DA0F-8F2A-3D54-90DECCF1FB6D">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>B43F7803-2B43-9910-7F07-06B46A041772</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRACOWNIK_id" id="17894D4F-6B8F-F30B-5015-5404010FE3DE">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>8FE52F3C-09A6-7507-AF05-45895CA0A5ED</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F7942E3-6102-BDF3-25FF-6813BCA39534" referredColumn="7249E41F-C5C2-46B5-2B18-F7D41B0E29E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F884F4BA-4835-4210-FCEC-2C942713B1FD" name="DELEGACJA_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>8874A6B3-3426-B846-AD9C-32041E814E63</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10687869-B0B8-1BBD-BC72-57CB167FC0E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="493A8D0C-C018-3DFE-ACA2-A7248185D849" name="DELEGACJA_PRACOWNIK_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>02F0EDDE-3221-3A20-3DDF-46ADACA05EB5</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17894D4F-6B8F-F30B-5015-5404010FE3DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

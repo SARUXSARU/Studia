@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0660525-C49A-1F1E-FD34-913FAB70606F" name="WYDATEK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>5CDB7A81-8AE6-D170-492D-B5061CFF2185</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data" id="343D421D-BA15-FAA6-6DED-9667A12BC7B5">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>08CC4C87-6B67-57CF-A00E-7F0051E5019B</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="BE0129A4-4942-A4E2-24EB-6A00B233CB81">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>49DFBC22-18E8-D20B-F812-F12470313A6E</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kwota" id="D5B4D9BF-B184-230D-ED81-10814494CD2A">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>15ED1751-8E0B-1A92-954A-C8081A6AFA2B</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KATEGORIE_WYDATKÓW_id" id="1DE2AD0F-7F6B-F086-531E-080F81603D85">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>2BEA0281-8E8F-4CFD-18F8-29EF746610D3</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D56B1B4C-CE7C-50CE-1426-7EC50C43D11B" referredColumn="08ED22C7-C63C-FD62-3FCB-6CFBE263BDD8"/>
+</associations>
+</Column>
+<Column name="DELEGACJA_id" id="CD9243CC-797B-80CA-B94D-E4C1BA40F36F">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>D04B5544-491D-E348-3052-83AD2938E3D2</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE9F45B1-53C5-DE86-52FF-D8EDDE839703" referredColumn="10687869-B0B8-1BBD-BC72-57CB167FC0E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2E81A73-19D6-1243-101A-A3600FD635B1" name="WYDATEK_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>21A895E0-209F-27B3-F222-56645074859B</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE0129A4-4942-A4E2-24EB-6A00B233CB81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53BBCDE3-FB58-41AA-D94E-D52439FB6BC0" name="WYDATEK_KATEGORIE_WYDATKÓW_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>B3036D85-6931-0DDB-EEF3-F6D6021A884F</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DE2AD0F-7F6B-F086-531E-080F81603D85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4CFFAC3-15D8-9829-E1D6-EDFDACC776B0" name="WYDATEK_DELEGACJA_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>EAC21A72-DE4C-8E34-FE46-AABFD1927F4C</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD9243CC-797B-80CA-B94D-E4C1BA40F36F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E49DB096-634B-F108-FB51-01541DB70171" name="SAMOCHÓD">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>5E7F3462-0387-B48B-FD71-C094BA060DA6</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="43CAC33B-2E60-68A5-682C-314754A61E2A">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>C45DEE50-91BC-CD24-AE14-E6598800F4F4</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numer_rejestracyjny" id="9E70E69A-6744-E5FE-C296-24A31A55C3ED">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>A32A0845-65F0-5214-EF38-B7797AB476F2</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numer_nadwozia" id="DD4187CB-17FD-B8D4-6A96-DACD9AF8FE13">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>4A3F11B0-D843-621B-A9D2-CC54A3F5C8FA</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rok_produkcji" id="79DEFEDF-891A-0B3E-BB2E-871A673079DA">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>4A41CF17-66AF-6BEE-3039-E1B47EA2B169</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ODDZIAŁ_FIRMY_id" id="B9C656A7-ACF2-D16B-5CC4-9334A432A4AF">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>A33CB34B-9114-447A-2997-9EF3D3F8926B</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AE690C5-D405-DF99-32BA-5C77AA363B7C" referredColumn="1A519321-2BE4-8A0D-9294-B62F858AA5A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7E17E81-5A42-A4F7-02B8-698EF136EE24" name="SAMOCHÓD_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>7C360ACF-DA09-006C-0C46-635ECA4BBFAA</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43CAC33B-2E60-68A5-682C-314754A61E2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E28B899-530B-DEB5-B19F-24FC4456D03E" name="SAMOCHÓD_numer_rejestracyjny_numer_nadwozia_UN">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>B87748C3-8739-A1EF-036F-44C5B42747F9</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E70E69A-6744-E5FE-C296-24A31A55C3ED"/>
+<colUsage columnID="DD4187CB-17FD-B8D4-6A96-DACD9AF8FE13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA2829F9-1DA7-F238-38AE-94A235E7EA88" name="SAMOCHÓD_ODDZIAŁ_FIRMY_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>9BF11B1B-5EEF-1AF8-C482-B2992607AE7C</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9C656A7-ACF2-D16B-5CC4-9334A432A4AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

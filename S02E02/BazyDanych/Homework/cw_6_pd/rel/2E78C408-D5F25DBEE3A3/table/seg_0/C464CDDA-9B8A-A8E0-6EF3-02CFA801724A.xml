@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C464CDDA-9B8A-A8E0-6EF3-02CFA801724A" name="PRZEGLĄD">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>309F339E-794F-DDEC-EEC3-268E6964CEF4</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data" id="910E4556-A90F-3A0B-4884-B119F679922E">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>D041AFEC-FFDA-E727-2D42-B3B5E6783BA3</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SAMOCHÓD_Id" id="F703DD3E-8DFD-B2ED-46FB-FDD353954A1F">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>FBD36D7F-8EA7-7380-E31A-DC91D510DB8C</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD592556-2A32-EA5D-B561-E91C9E8031B7" referredColumn="43CAC33B-2E60-68A5-682C-314754A61E2A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC881511-4625-6223-0AD0-5F1672F1BEF5" name="PRZEGLĄD_PK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>74397979-8A1C-3174-3B11-00676C855E24</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F703DD3E-8DFD-B2ED-46FB-FDD353954A1F"/>
+<colUsage columnID="910E4556-A90F-3A0B-4884-B119F679922E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A36FE5FB-80EC-4C11-5AAE-97B5AC90CD14" name="PRZEGLĄD_SAMOCHÓD_FK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:27:04 UTC</createdTime>
+<generatorID>B9A6316F-2FEF-9012-16EA-96B34EEF9C15</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F703DD3E-8DFD-B2ED-46FB-FDD353954A1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

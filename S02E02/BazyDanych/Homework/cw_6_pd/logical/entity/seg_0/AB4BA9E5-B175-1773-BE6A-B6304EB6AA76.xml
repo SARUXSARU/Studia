@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB4BA9E5-B175-1773-BE6A-B6304EB6AA76" name="ODWIEDZENIE">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:25:29 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="data_odwiedzenia" id="B5A0DDC2-4942-4502-836E-3A99CBBE6302">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:25:36 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="36534D5F-E4CA-5308-0777-51E49471C797">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:26:08 UTC</createdTime>
+<generatorID>640B8BFA-FE7C-8011-F3A0-778B471E6DE7</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<referedAttribute>A4A0BFBE-CDA1-4FF2-EF1F-38ECA91D49A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="B20C4CF9-1748-DC91-17C1-66DE3F97580D">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:26:15 UTC</createdTime>
+<generatorID>D72A1CD4-09CB-498F-D6B6-4B773032B50E</generatorID>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<referedAttribute>D5CD7A46-0F0E-6555-F01B-CF803C1C5496</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A6A4065F-59BB-6E2F-55CC-F678F0F80EA0" name="ODWIEDZENIE PK">
+<createdBy>user</createdBy>
+<createdTime>2023-03-30 21:26:24 UTC</createdTime>
+<ownerDesignName>cw_6_pd</ownerDesignName>
+<engineerTo>
+<item key="2E78C408-B3C2-76BA-8AD2-D5F25DBEE3A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B20C4CF9-1748-DC91-17C1-66DE3F97580D</attributeRef>
+<attributeRef>36534D5F-E4CA-5308-0777-51E49471C797</attributeRef>
+<attributeRef>B5A0DDC2-4942-4502-836E-3A99CBBE6302</attributeRef>
+<attributeRef>36534D5F-E4CA-5308-0777-51E49471C797</attributeRef>
+<attributeRef>B20C4CF9-1748-DC91-17C1-66DE3F97580D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
